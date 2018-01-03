@@ -28,11 +28,11 @@ public void choseSpecialist(String nazwisko) throws Exception
 	specialistaInput.sendKeys(Keys.ENTER);
 	
 	
-	Thread.sleep(6000);
+	//Thread.sleep(6000);
 	String styleInfo = tick2.getAttribute("style");
 	System.out.println(styleInfo);
 	Assert.assertEquals("color: rgb(153, 0, 0); font-size: 12px; margin-top: 10px; display: none;", styleInfo);
-	Thread.sleep(3000);
+	//Thread.sleep(3000);
 	
 }
 	

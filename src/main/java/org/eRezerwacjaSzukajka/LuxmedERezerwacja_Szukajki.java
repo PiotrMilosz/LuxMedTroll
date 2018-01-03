@@ -1,11 +1,13 @@
 package org.eRezerwacjaSzukajka;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import org.jboss.arquillian.drone.api.annotation.Drone;
 import org.jboss.arquillian.graphene.Graphene;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -24,6 +26,7 @@ public class LuxmedERezerwacja_Szukajki {
 	private WebElement tick;
 	@FindBy(id = "tick1_info")
 	private WebElement tick1info;
+	
 
 	public void choosePlacowka(String optionNumber) throws Exception {
 
@@ -45,7 +48,7 @@ public class LuxmedERezerwacja_Szukajki {
 				options.get(i).click();
 			}
 		}
-		Thread.sleep(6000);
+		Thread.sleep(3000);
 		String styleInfo = tick1info.getAttribute("style");
 		System.out.println(styleInfo);
 		// Graphene.waitAjax().until().element(By.xpath("//*[@id='tick1']")).is().visible();

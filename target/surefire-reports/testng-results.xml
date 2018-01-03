@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="20" passed="20">
   <reporter-output>
   </reporter-output>
-  <suite name="LuxmedTest" duration-ms="175570" started-at="2018-01-03T09:26:16Z" finished-at="2018-01-03T09:29:12Z">
+  <suite name="LuxmedTest" duration-ms="130389" started-at="2018-01-03T13:33:12Z" finished-at="2018-01-03T13:35:22Z">
     <groups>
     </groups>
-    <test name="MyTests" duration-ms="175570" started-at="2018-01-03T09:26:16Z" finished-at="2018-01-03T09:29:12Z">
+    <test name="MyTests" duration-ms="130389" started-at="2018-01-03T13:33:12Z" finished-at="2018-01-03T13:35:22Z">
       <class name="org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka">
-        <test-method status="PASS" signature="arquillianBeforeSuite()[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianBeforeSuite" is-config="true" duration-ms="877" started-at="2018-01-03T10:26:15Z" finished-at="2018-01-03T10:26:16Z">
+        <test-method status="PASS" signature="arquillianBeforeSuite()[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianBeforeSuite" is-config="true" duration-ms="927" started-at="2018-01-03T14:33:11Z" finished-at="2018-01-03T14:33:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianBeforeSuite -->
-        <test-method status="PASS" signature="arquillianBeforeClass()[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianBeforeClass" is-config="true" duration-ms="11" started-at="2018-01-03T10:26:16Z" finished-at="2018-01-03T10:26:16Z">
+        <test-method status="PASS" signature="arquillianBeforeClass()[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianBeforeClass" is-config="true" duration-ms="20" started-at="2018-01-03T14:33:12Z" finished-at="2018-01-03T14:33:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianBeforeClass -->
-        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianBeforeTest" is-config="true" duration-ms="4358" started-at="2018-01-03T10:26:16Z" finished-at="2018-01-03T10:26:20Z">
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianBeforeTest" is-config="true" duration-ms="4408" started-at="2018-01-03T14:33:12Z" finished-at="2018-01-03T14:33:16Z">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianBeforeTest -->
-        <test-method status="PASS" signature="LunchLuxmed()[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="LunchLuxmed" duration-ms="5958" started-at="2018-01-03T10:26:20Z" description="Otwieranie strony" finished-at="2018-01-03T10:26:26Z">
+        <test-method status="PASS" signature="LunchLuxmed()[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="LunchLuxmed" duration-ms="6884" started-at="2018-01-03T14:33:16Z" description="Otwieranie strony" finished-at="2018-01-03T14:33:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LunchLuxmed -->
-        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianAfterTest" is-config="true" duration-ms="6" started-at="2018-01-03T10:26:26Z" finished-at="2018-01-03T10:26:26Z">
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianAfterTest" is-config="true" duration-ms="2" started-at="2018-01-03T14:33:23Z" finished-at="2018-01-03T14:33:23Z">
           <params>
             <param index="0">
               <value>
@@ -41,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianAfterTest -->
-        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianBeforeTest" is-config="true" duration-ms="340" started-at="2018-01-03T10:26:26Z" finished-at="2018-01-03T10:26:27Z">
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianBeforeTest" is-config="true" duration-ms="334" started-at="2018-01-03T14:33:23Z" finished-at="2018-01-03T14:33:24Z">
           <params>
             <param index="0">
               <value>
@@ -52,11 +52,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianBeforeTest -->
-        <test-method status="PASS" signature="ChosePacjent()[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="ChosePacjent" duration-ms="9093" started-at="2018-01-03T10:26:27Z" description="Wybieranie opcji pacjent" finished-at="2018-01-03T10:26:36Z">
+        <test-method status="PASS" signature="ChosePacjent()[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="ChosePacjent" duration-ms="9533" started-at="2018-01-03T14:33:24Z" description="Wybieranie opcji pacjent" finished-at="2018-01-03T14:33:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChosePacjent -->
-        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianAfterTest" is-config="true" duration-ms="1" started-at="2018-01-03T10:26:36Z" finished-at="2018-01-03T10:26:36Z">
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianAfterTest" is-config="true" duration-ms="1" started-at="2018-01-03T14:33:33Z" finished-at="2018-01-03T14:33:33Z">
           <params>
             <param index="0">
               <value>
@@ -67,7 +67,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianAfterTest -->
-        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianBeforeTest" is-config="true" duration-ms="309" started-at="2018-01-03T10:26:36Z" finished-at="2018-01-03T10:26:36Z">
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianBeforeTest" is-config="true" duration-ms="331" started-at="2018-01-03T14:33:33Z" finished-at="2018-01-03T14:33:34Z">
           <params>
             <param index="0">
               <value>
@@ -78,11 +78,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianBeforeTest -->
-        <test-method status="PASS" signature="CheckUrl()[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="CheckUrl" duration-ms="365" started-at="2018-01-03T10:26:36Z" description="Potwierdzanie Url" finished-at="2018-01-03T10:26:36Z">
+        <test-method status="PASS" signature="CheckUrl()[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="CheckUrl" duration-ms="296" started-at="2018-01-03T14:33:34Z" description="Potwierdzanie Url" finished-at="2018-01-03T14:33:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckUrl -->
-        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianAfterTest" is-config="true" duration-ms="1" started-at="2018-01-03T10:26:36Z" finished-at="2018-01-03T10:26:36Z">
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianAfterTest" is-config="true" duration-ms="1" started-at="2018-01-03T14:33:34Z" finished-at="2018-01-03T14:33:34Z">
           <params>
             <param index="0">
               <value>
@@ -93,7 +93,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianAfterTest -->
-        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianBeforeTest" is-config="true" duration-ms="290" started-at="2018-01-03T10:26:36Z" finished-at="2018-01-03T10:26:37Z">
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianBeforeTest" is-config="true" duration-ms="285" started-at="2018-01-03T14:33:34Z" finished-at="2018-01-03T14:33:34Z">
           <params>
             <param index="0">
               <value>
@@ -104,11 +104,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianBeforeTest -->
-        <test-method status="PASS" signature="ClickRezerwacja()[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="ClickRezerwacja" duration-ms="3188" started-at="2018-01-03T10:26:37Z" description="Wybieranie Rezerwacji" finished-at="2018-01-03T10:26:40Z">
+        <test-method status="PASS" signature="ClickRezerwacja()[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="ClickRezerwacja" duration-ms="3255" started-at="2018-01-03T14:33:34Z" description="Wybieranie Rezerwacji" finished-at="2018-01-03T14:33:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickRezerwacja -->
-        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianAfterTest" is-config="true" duration-ms="2" started-at="2018-01-03T10:26:40Z" finished-at="2018-01-03T10:26:40Z">
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianAfterTest" is-config="true" duration-ms="1" started-at="2018-01-03T14:33:37Z" finished-at="2018-01-03T14:33:37Z">
           <params>
             <param index="0">
               <value>
@@ -119,7 +119,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianAfterTest -->
-        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianBeforeTest" is-config="true" duration-ms="177" started-at="2018-01-03T10:26:40Z" finished-at="2018-01-03T10:26:40Z">
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianBeforeTest" is-config="true" duration-ms="162" started-at="2018-01-03T14:33:37Z" finished-at="2018-01-03T14:33:38Z">
           <params>
             <param index="0">
               <value>
@@ -130,11 +130,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianBeforeTest -->
-        <test-method status="PASS" signature="ChoseRodzajRezerwacji()[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="ChoseRodzajRezerwacji" duration-ms="6369" started-at="2018-01-03T10:26:40Z" description="Wybieranie rodzaju wizyty" finished-at="2018-01-03T10:26:47Z">
+        <test-method status="PASS" signature="ChoseRodzajRezerwacji()[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="ChoseRodzajRezerwacji" duration-ms="1648" started-at="2018-01-03T14:33:38Z" description="Wybieranie rodzaju wizyty" finished-at="2018-01-03T14:33:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChoseRodzajRezerwacji -->
-        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianAfterTest" is-config="true" duration-ms="1" started-at="2018-01-03T10:26:47Z" finished-at="2018-01-03T10:26:47Z">
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianAfterTest" is-config="true" duration-ms="1" started-at="2018-01-03T14:33:39Z" finished-at="2018-01-03T14:33:39Z">
           <params>
             <param index="0">
               <value>
@@ -145,7 +145,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianAfterTest -->
-        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianBeforeTest" is-config="true" duration-ms="153" started-at="2018-01-03T10:26:47Z" finished-at="2018-01-03T10:26:47Z">
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianBeforeTest" is-config="true" duration-ms="156" started-at="2018-01-03T14:33:39Z" finished-at="2018-01-03T14:33:39Z">
           <params>
             <param index="0">
               <value>
@@ -156,11 +156,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianBeforeTest -->
-        <test-method status="PASS" signature="choseLocationSpecialistPerson()[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="choseLocationSpecialistPerson" duration-ms="7316" started-at="2018-01-03T10:26:47Z" description="Wybór placówki" finished-at="2018-01-03T10:26:54Z">
+        <test-method status="PASS" signature="choseLocationSpecialistPerson()[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="choseLocationSpecialistPerson" duration-ms="4488" started-at="2018-01-03T14:33:39Z" description="Wybór placówki" finished-at="2018-01-03T14:33:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- choseLocationSpecialistPerson -->
-        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianAfterTest" is-config="true" duration-ms="1" started-at="2018-01-03T10:26:54Z" finished-at="2018-01-03T10:26:54Z">
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianAfterTest" is-config="true" duration-ms="1" started-at="2018-01-03T14:33:44Z" finished-at="2018-01-03T14:33:44Z">
           <params>
             <param index="0">
               <value>
@@ -171,7 +171,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianAfterTest -->
-        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianBeforeTest" is-config="true" duration-ms="142" started-at="2018-01-03T10:26:54Z" finished-at="2018-01-03T10:26:54Z">
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianBeforeTest" is-config="true" duration-ms="157" started-at="2018-01-03T14:33:44Z" finished-at="2018-01-03T14:33:44Z">
           <params>
             <param index="0">
               <value>
@@ -182,11 +182,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianBeforeTest -->
-        <test-method status="PASS" signature="choseSpecialist()[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="choseSpecialist" duration-ms="9193" started-at="2018-01-03T10:26:54Z" description="Wybór specjalisty" finished-at="2018-01-03T10:27:03Z">
+        <test-method status="PASS" signature="choseSpecialist()[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="choseSpecialist" duration-ms="176" started-at="2018-01-03T14:33:44Z" description="Wybór specjalisty" finished-at="2018-01-03T14:33:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- choseSpecialist -->
-        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianAfterTest" is-config="true" duration-ms="1" started-at="2018-01-03T10:27:03Z" finished-at="2018-01-03T10:27:03Z">
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianAfterTest" is-config="true" duration-ms="1" started-at="2018-01-03T14:33:44Z" finished-at="2018-01-03T14:33:44Z">
           <params>
             <param index="0">
               <value>
@@ -197,7 +197,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianAfterTest -->
-        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianBeforeTest" is-config="true" duration-ms="178" started-at="2018-01-03T10:27:03Z" finished-at="2018-01-03T10:27:04Z">
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianBeforeTest" is-config="true" duration-ms="151" started-at="2018-01-03T14:33:44Z" finished-at="2018-01-03T14:33:44Z">
           <params>
             <param index="0">
               <value>
@@ -208,11 +208,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianBeforeTest -->
-        <test-method status="PASS" signature="choseData()[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="choseData" duration-ms="10265" started-at="2018-01-03T10:27:04Z" description="Wybór daty urodzenia" finished-at="2018-01-03T10:27:14Z">
+        <test-method status="PASS" signature="choseData()[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="choseData" duration-ms="10419" started-at="2018-01-03T14:33:44Z" description="Wybór daty urodzenia" finished-at="2018-01-03T14:33:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- choseData -->
-        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianAfterTest" is-config="true" duration-ms="1" started-at="2018-01-03T10:27:14Z" finished-at="2018-01-03T10:27:14Z">
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianAfterTest" is-config="true" duration-ms="1" started-at="2018-01-03T14:33:55Z" finished-at="2018-01-03T14:33:55Z">
           <params>
             <param index="0">
               <value>
@@ -223,7 +223,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianAfterTest -->
-        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianBeforeTest" is-config="true" duration-ms="183" started-at="2018-01-03T10:27:14Z" finished-at="2018-01-03T10:27:14Z">
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianBeforeTest" is-config="true" duration-ms="163" started-at="2018-01-03T14:33:55Z" finished-at="2018-01-03T14:33:55Z">
           <params>
             <param index="0">
               <value>
@@ -234,11 +234,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianBeforeTest -->
-        <test-method status="PASS" signature="searchResults()[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="searchResults" duration-ms="13492" started-at="2018-01-03T10:27:14Z" description="Wyszukuj wizyty" finished-at="2018-01-03T10:27:27Z">
+        <test-method status="PASS" signature="searchResults()[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="searchResults" duration-ms="14251" started-at="2018-01-03T14:33:55Z" description="Wyszukuj wizyty" finished-at="2018-01-03T14:34:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchResults -->
-        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianAfterTest" is-config="true" duration-ms="1" started-at="2018-01-03T10:27:27Z" finished-at="2018-01-03T10:27:27Z">
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianAfterTest" is-config="true" duration-ms="1" started-at="2018-01-03T14:34:09Z" finished-at="2018-01-03T14:34:09Z">
           <params>
             <param index="0">
               <value>
@@ -249,7 +249,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianAfterTest -->
-        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianBeforeTest" is-config="true" duration-ms="137" started-at="2018-01-03T10:27:27Z" finished-at="2018-01-03T10:27:28Z">
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianBeforeTest" is-config="true" duration-ms="147" started-at="2018-01-03T14:34:09Z" finished-at="2018-01-03T14:34:09Z">
           <params>
             <param index="0">
               <value>
@@ -260,11 +260,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianBeforeTest -->
-        <test-method status="PASS" signature="goVisitTypeAndResults()[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="goVisitTypeAndResults" duration-ms="10275" started-at="2018-01-03T10:27:28Z" description="Wybór rodzaju wizyty i dostepne terminy" finished-at="2018-01-03T10:27:38Z">
+        <test-method status="PASS" signature="goVisitTypeAndResults()[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="goVisitTypeAndResults" duration-ms="10606" started-at="2018-01-03T14:34:09Z" description="Wybór rodzaju wizyty i dostepne terminy" finished-at="2018-01-03T14:34:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goVisitTypeAndResults -->
-        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianAfterTest" is-config="true" duration-ms="2" started-at="2018-01-03T10:27:38Z" finished-at="2018-01-03T10:27:38Z">
+        <test-method status="PASS" signature="arquillianAfterClass()[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianAfterClass" is-config="true" duration-ms="2276" started-at="2018-01-03T14:34:20Z" finished-at="2018-01-03T14:34:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianAfterClass -->
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianAfterTest" is-config="true" duration-ms="0" started-at="2018-01-03T14:34:20Z" finished-at="2018-01-03T14:34:20Z">
           <params>
             <param index="0">
               <value>
@@ -275,21 +279,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianAfterTest -->
-        <test-method status="PASS" signature="arquillianAfterClass()[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianAfterClass" is-config="true" duration-ms="2399" started-at="2018-01-03T10:27:38Z" finished-at="2018-01-03T10:27:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- arquillianAfterClass -->
-        <test-method status="PASS" signature="arquillianAfterSuite()[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianAfterSuite" is-config="true" duration-ms="5" started-at="2018-01-03T10:29:12Z" finished-at="2018-01-03T10:29:12Z">
+        <test-method status="PASS" signature="arquillianAfterSuite()[pri:0, instance:org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka@4f933fd1]" name="arquillianAfterSuite" is-config="true" duration-ms="7" started-at="2018-01-03T14:35:22Z" finished-at="2018-01-03T14:35:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianAfterSuite -->
       </class> <!-- org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka -->
       <class name="org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists">
-        <test-method status="PASS" signature="arquillianBeforeClass()[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianBeforeClass" is-config="true" duration-ms="1" started-at="2018-01-03T10:27:40Z" finished-at="2018-01-03T10:27:40Z">
+        <test-method status="PASS" signature="arquillianBeforeClass()[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianBeforeClass" is-config="true" duration-ms="1" started-at="2018-01-03T14:34:22Z" finished-at="2018-01-03T14:34:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianBeforeClass -->
-        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianBeforeTest" is-config="true" duration-ms="2753" started-at="2018-01-03T10:27:40Z" finished-at="2018-01-03T10:27:43Z">
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianBeforeTest" is-config="true" duration-ms="2740" started-at="2018-01-03T14:34:22Z" finished-at="2018-01-03T14:34:25Z">
           <params>
             <param index="0">
               <value>
@@ -300,11 +300,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianBeforeTest -->
-        <test-method status="PASS" signature="LunchLuxmed1()[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="LunchLuxmed1" duration-ms="5822" started-at="2018-01-03T10:27:43Z" description="Otwieranie strony" finished-at="2018-01-03T10:27:49Z">
+        <test-method status="PASS" signature="LunchLuxmed1()[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="LunchLuxmed1" duration-ms="6117" started-at="2018-01-03T14:34:25Z" description="Otwieranie strony" finished-at="2018-01-03T14:34:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LunchLuxmed1 -->
-        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianAfterTest" is-config="true" duration-ms="0" started-at="2018-01-03T10:27:49Z" finished-at="2018-01-03T10:27:49Z">
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianAfterTest" is-config="true" duration-ms="1" started-at="2018-01-03T14:34:31Z" finished-at="2018-01-03T14:34:31Z">
           <params>
             <param index="0">
               <value>
@@ -315,7 +315,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianAfterTest -->
-        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianBeforeTest" is-config="true" duration-ms="215" started-at="2018-01-03T10:27:49Z" finished-at="2018-01-03T10:27:49Z">
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianBeforeTest" is-config="true" duration-ms="228" started-at="2018-01-03T14:34:31Z" finished-at="2018-01-03T14:34:31Z">
           <params>
             <param index="0">
               <value>
@@ -326,11 +326,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianBeforeTest -->
-        <test-method status="PASS" signature="ChosePacjent1()[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="ChosePacjent1" duration-ms="9039" started-at="2018-01-03T10:27:49Z" description="Wybieranie opcji pacjent" finished-at="2018-01-03T10:27:58Z">
+        <test-method status="PASS" signature="ChosePacjent1()[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="ChosePacjent1" duration-ms="9203" started-at="2018-01-03T14:34:31Z" description="Wybieranie opcji pacjent" finished-at="2018-01-03T14:34:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChosePacjent1 -->
-        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianAfterTest" is-config="true" duration-ms="1" started-at="2018-01-03T10:27:58Z" finished-at="2018-01-03T10:27:58Z">
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianAfterTest" is-config="true" duration-ms="1" started-at="2018-01-03T14:34:40Z" finished-at="2018-01-03T14:34:40Z">
           <params>
             <param index="0">
               <value>
@@ -341,7 +341,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianAfterTest -->
-        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianBeforeTest" is-config="true" duration-ms="307" started-at="2018-01-03T10:27:58Z" finished-at="2018-01-03T10:27:58Z">
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianBeforeTest" is-config="true" duration-ms="325" started-at="2018-01-03T14:34:40Z" finished-at="2018-01-03T14:34:41Z">
           <params>
             <param index="0">
               <value>
@@ -352,11 +352,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianBeforeTest -->
-        <test-method status="PASS" signature="CheckUrl1()[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="CheckUrl1" duration-ms="323" started-at="2018-01-03T10:27:58Z" description="Potwierdzanie Url" finished-at="2018-01-03T10:27:59Z">
+        <test-method status="PASS" signature="CheckUrl1()[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="CheckUrl1" duration-ms="265" started-at="2018-01-03T14:34:41Z" description="Potwierdzanie Url" finished-at="2018-01-03T14:34:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckUrl1 -->
-        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianAfterTest" is-config="true" duration-ms="0" started-at="2018-01-03T10:27:59Z" finished-at="2018-01-03T10:27:59Z">
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianAfterTest" is-config="true" duration-ms="1" started-at="2018-01-03T14:34:41Z" finished-at="2018-01-03T14:34:41Z">
           <params>
             <param index="0">
               <value>
@@ -367,7 +367,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianAfterTest -->
-        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianBeforeTest" is-config="true" duration-ms="284" started-at="2018-01-03T10:27:59Z" finished-at="2018-01-03T10:27:59Z">
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianBeforeTest" is-config="true" duration-ms="306" started-at="2018-01-03T14:34:41Z" finished-at="2018-01-03T14:34:41Z">
           <params>
             <param index="0">
               <value>
@@ -378,11 +378,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianBeforeTest -->
-        <test-method status="PASS" signature="ClickRezerwacja1()[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="ClickRezerwacja1" duration-ms="4721" started-at="2018-01-03T10:27:59Z" description="Wybieranie Rezerwacji" finished-at="2018-01-03T10:28:04Z">
+        <test-method status="PASS" signature="ClickRezerwacja1()[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="ClickRezerwacja1" duration-ms="4709" started-at="2018-01-03T14:34:41Z" description="Wybieranie Rezerwacji" finished-at="2018-01-03T14:34:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickRezerwacja1 -->
-        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianAfterTest" is-config="true" duration-ms="0" started-at="2018-01-03T10:28:04Z" finished-at="2018-01-03T10:28:04Z">
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianAfterTest" is-config="true" duration-ms="0" started-at="2018-01-03T14:34:46Z" finished-at="2018-01-03T14:34:46Z">
           <params>
             <param index="0">
               <value>
@@ -393,7 +393,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianAfterTest -->
-        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianBeforeTest" is-config="true" duration-ms="146" started-at="2018-01-03T10:28:04Z" finished-at="2018-01-03T10:28:04Z">
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianBeforeTest" is-config="true" duration-ms="140" started-at="2018-01-03T14:34:46Z" finished-at="2018-01-03T14:34:46Z">
           <params>
             <param index="0">
               <value>
@@ -404,11 +404,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianBeforeTest -->
-        <test-method status="PASS" signature="ChoseRodzajRezerwacji1()[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="ChoseRodzajRezerwacji1" duration-ms="6408" started-at="2018-01-03T10:28:04Z" description="Wybieranie rodzaju wizyty" finished-at="2018-01-03T10:28:10Z">
+        <test-method status="PASS" signature="ChoseRodzajRezerwacji1()[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="ChoseRodzajRezerwacji1" duration-ms="1619" started-at="2018-01-03T14:34:46Z" description="Wybieranie rodzaju wizyty" finished-at="2018-01-03T14:34:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChoseRodzajRezerwacji1 -->
-        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianAfterTest" is-config="true" duration-ms="2" started-at="2018-01-03T10:28:10Z" finished-at="2018-01-03T10:28:10Z">
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianAfterTest" is-config="true" duration-ms="1" started-at="2018-01-03T14:34:48Z" finished-at="2018-01-03T14:34:48Z">
           <params>
             <param index="0">
               <value>
@@ -419,7 +419,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianAfterTest -->
-        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianBeforeTest" is-config="true" duration-ms="170" started-at="2018-01-03T10:28:10Z" finished-at="2018-01-03T10:28:10Z">
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianBeforeTest" is-config="true" duration-ms="203" started-at="2018-01-03T14:34:48Z" finished-at="2018-01-03T14:34:48Z">
           <params>
             <param index="0">
               <value>
@@ -430,11 +430,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianBeforeTest -->
-        <test-method status="PASS" signature="choseLocationSpecialistPerson1()[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="choseLocationSpecialistPerson1" duration-ms="7294" started-at="2018-01-03T10:28:10Z" description="Wybór placówki" finished-at="2018-01-03T10:28:18Z">
+        <test-method status="PASS" signature="choseLocationSpecialistPerson1()[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="choseLocationSpecialistPerson1" duration-ms="4332" started-at="2018-01-03T14:34:48Z" description="Wybór placówki" finished-at="2018-01-03T14:34:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- choseLocationSpecialistPerson1 -->
-        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianAfterTest" is-config="true" duration-ms="2" started-at="2018-01-03T10:28:18Z" finished-at="2018-01-03T10:28:18Z">
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianAfterTest" is-config="true" duration-ms="5" started-at="2018-01-03T14:34:52Z" finished-at="2018-01-03T14:34:52Z">
           <params>
             <param index="0">
               <value>
@@ -445,7 +445,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianAfterTest -->
-        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianBeforeTest" is-config="true" duration-ms="141" started-at="2018-01-03T10:28:18Z" finished-at="2018-01-03T10:28:18Z">
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianBeforeTest" is-config="true" duration-ms="172" started-at="2018-01-03T14:34:52Z" finished-at="2018-01-03T14:34:53Z">
           <params>
             <param index="0">
               <value>
@@ -456,11 +456,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianBeforeTest -->
-        <test-method status="PASS" signature="choseSpecialist1()[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="choseSpecialist1" duration-ms="9169" started-at="2018-01-03T10:28:18Z" description="Wybór specjalisty" finished-at="2018-01-03T10:28:27Z">
+        <test-method status="PASS" signature="choseSpecialist1()[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="choseSpecialist1" duration-ms="115" started-at="2018-01-03T14:34:53Z" description="Wybór specjalisty" finished-at="2018-01-03T14:34:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- choseSpecialist1 -->
-        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianAfterTest" is-config="true" duration-ms="2" started-at="2018-01-03T10:28:27Z" finished-at="2018-01-03T10:28:27Z">
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianAfterTest" is-config="true" duration-ms="1" started-at="2018-01-03T14:34:53Z" finished-at="2018-01-03T14:34:53Z">
           <params>
             <param index="0">
               <value>
@@ -471,7 +471,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianAfterTest -->
-        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianBeforeTest" is-config="true" duration-ms="190" started-at="2018-01-03T10:28:27Z" finished-at="2018-01-03T10:28:27Z">
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianBeforeTest" is-config="true" duration-ms="142" started-at="2018-01-03T14:34:53Z" finished-at="2018-01-03T14:34:53Z">
           <params>
             <param index="0">
               <value>
@@ -482,11 +482,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianBeforeTest -->
-        <test-method status="PASS" signature="choseData1()[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="choseData1" duration-ms="10390" started-at="2018-01-03T10:28:27Z" description="Wybór daty urodzenia" finished-at="2018-01-03T10:28:38Z">
+        <test-method status="PASS" signature="choseData1()[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="choseData1" duration-ms="10436" started-at="2018-01-03T14:34:53Z" description="Wybór daty urodzenia" finished-at="2018-01-03T14:35:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- choseData1 -->
-        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianAfterTest" is-config="true" duration-ms="1" started-at="2018-01-03T10:28:38Z" finished-at="2018-01-03T10:28:38Z">
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianAfterTest" is-config="true" duration-ms="1" started-at="2018-01-03T14:35:03Z" finished-at="2018-01-03T14:35:03Z">
           <params>
             <param index="0">
               <value>
@@ -497,7 +497,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianAfterTest -->
-        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianBeforeTest" is-config="true" duration-ms="165" started-at="2018-01-03T10:28:38Z" finished-at="2018-01-03T10:28:38Z">
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianBeforeTest" is-config="true" duration-ms="154" started-at="2018-01-03T14:35:03Z" finished-at="2018-01-03T14:35:03Z">
           <params>
             <param index="0">
               <value>
@@ -508,11 +508,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianBeforeTest -->
-        <test-method status="PASS" signature="searchResults1()[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="searchResults1" duration-ms="15556" started-at="2018-01-03T10:28:38Z" description="Wyszukuj wizyty" finished-at="2018-01-03T10:28:53Z">
+        <test-method status="PASS" signature="searchResults1()[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="searchResults1" duration-ms="15528" started-at="2018-01-03T14:35:03Z" description="Wyszukuj wizyty" finished-at="2018-01-03T14:35:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchResults1 -->
-        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianAfterTest" is-config="true" duration-ms="2" started-at="2018-01-03T10:28:53Z" finished-at="2018-01-03T10:28:53Z">
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianAfterTest" is-config="true" duration-ms="2" started-at="2018-01-03T14:35:19Z" finished-at="2018-01-03T14:35:19Z">
           <params>
             <param index="0">
               <value>
@@ -523,7 +523,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianAfterTest -->
-        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianBeforeTest" is-config="true" duration-ms="163" started-at="2018-01-03T10:28:53Z" finished-at="2018-01-03T10:28:54Z">
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianBeforeTest" is-config="true" duration-ms="167" started-at="2018-01-03T14:35:19Z" finished-at="2018-01-03T14:35:19Z">
           <params>
             <param index="0">
               <value>
@@ -534,15 +534,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianBeforeTest -->
-        <test-method status="PASS" signature="printSpecWyniki1()[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="printSpecWyniki1" duration-ms="15953" started-at="2018-01-03T10:28:54Z" description="Print wszystkich specialistów z datami wolnego terminu" finished-at="2018-01-03T10:29:09Z">
+        <test-method status="PASS" signature="printSpecWyniki1()[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="printSpecWyniki1" duration-ms="1000" started-at="2018-01-03T14:35:19Z" description="Print wszystkich specialistów z datami wolnego terminu" finished-at="2018-01-03T14:35:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printSpecWyniki1 -->
-        <test-method status="PASS" signature="arquillianAfterClass()[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianAfterClass" is-config="true" duration-ms="2127" started-at="2018-01-03T10:29:09Z" finished-at="2018-01-03T10:29:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- arquillianAfterClass -->
-        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianAfterTest" is-config="true" duration-ms="0" started-at="2018-01-03T10:29:09Z" finished-at="2018-01-03T10:29:09Z">
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianAfterTest" is-config="true" duration-ms="0" started-at="2018-01-03T14:35:20Z" finished-at="2018-01-03T14:35:20Z">
           <params>
             <param index="0">
               <value>
@@ -553,6 +549,10 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arquillianAfterTest -->
+        <test-method status="PASS" signature="arquillianAfterClass()[pri:0, instance:org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists@4cc0edeb]" name="arquillianAfterClass" is-config="true" duration-ms="2307" started-at="2018-01-03T14:35:20Z" finished-at="2018-01-03T14:35:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianAfterClass -->
       </class> <!-- org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists -->
     </test> <!-- MyTests -->
   </suite> <!-- LuxmedTest -->

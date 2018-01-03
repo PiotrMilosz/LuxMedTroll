@@ -1,8 +1,11 @@
 package org.eRezerwacjaRodzajWizyty;
 
+import java.util.concurrent.TimeUnit;
+
 import org.jboss.arquillian.drone.api.annotation.Drone;
 import org.jboss.arquillian.graphene.Graphene;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -28,14 +31,15 @@ public class LuxmedE_Rezerwacja_Rodzaj {
 	@FindBy(id="bez_logowania")
 	private WebElement bezLogBtn;
 	
-	public void goPrywatna() throws Exception {
+	public void goPrywatna(){
 		radialPrywatne.click();
+		Graphene.waitAjax().withTimeout(20,TimeUnit.SECONDS).pollingEvery(1, TimeUnit.SECONDS).ignoring(WebDriverException.class).until().element(bezLogBtn).is().clickable();
 		String linkBtn = bezLogBtn.getAttribute("href");
 		System.out.println(linkBtn);
 		bezLogBtn.click();
 		//driver.get(linkBtn);
 		Graphene.waitForHttp(linkBtn);
-		Thread.sleep(5000);
+		
 	}
 	public void goNFZ() {
 		radialNFZ.click();

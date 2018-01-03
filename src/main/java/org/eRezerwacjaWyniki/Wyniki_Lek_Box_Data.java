@@ -1,19 +1,26 @@
 package org.eRezerwacjaWyniki;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import org.jboss.arquillian.drone.api.annotation.Drone;
+import org.jboss.arquillian.graphene.Graphene;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 public class Wyniki_Lek_Box_Data {
 
 	@Drone
 	private WebDriver driver;
+	@FindBy(className = "rezerwuj_btn" )
+	private WebElement rezerwujButton;
+	
 	
 	public void dataFromBoxes() throws Exception {
-		Thread.sleep(15000);
+		Graphene.waitAjax().withTimeout(20,TimeUnit.SECONDS).pollingEvery(1, TimeUnit.SECONDS).ignoring(WebDriverException.class).until().element(rezerwujButton).is().clickable();
 		List<WebElement> boxList = driver.findElements(By.className("lek_box"));
 		System.out.println("Lista dostepnych lekarzy i data pierwszego wolnego terminu");
 		

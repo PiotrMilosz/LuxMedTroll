@@ -8,6 +8,7 @@
           <include name="arquillianAfterSuite"/>
           <include name="arquillianAfterClass"/>
           <include name="arquillianBeforeClass"/>
+          <include name="goVisitTypeAndResults"/>
           <include name="arquillianAfterTest"/>
           <include name="arquillianBeforeSuite"/>
           <include name="arquillianBeforeTest"/>
@@ -18,7 +19,6 @@
           <include name="arquillianAfterClass"/>
           <include name="arquillianBeforeClass"/>
           <include name="arquillianAfterTest"/>
-          <include name="printSpecWyniki1"/>
           <include name="arquillianBeforeTest"/>
         </methods>
       </class> <!-- org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists -->
