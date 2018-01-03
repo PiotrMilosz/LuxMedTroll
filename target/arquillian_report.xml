@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report>
+   <reportConfiguration>
+      <imageHeight>100</imageHeight>
+      <imageWidth>100</imageWidth>
+   </reportConfiguration>
+   <extension qualifier="webdriver">
+      <configuration>
+         <entry>
+            <key>browser</key>
+            <value>firefox</value>
+         </entry>
+      </configuration>
+   </extension>
+   <extension qualifier="screenshooter">
+      <configuration>
+         <entry>
+            <key>takeBeforeTest</key>
+            <value>true</value>
+         </entry>
+         <entry>
+            <key>takeWhenTestFailed</key>
+            <value>true</value>
+         </entry>
+         <entry>
+            <key>takeAfterTest</key>
+            <value>true</value>
+         </entry>
+         <entry>
+            <key>takeOnEveryAction</key>
+            <value>true</value>
+         </entry>
+      </configuration>
+   </extension>
+   <suite start="2018-01-03T10:26:16.521+01:00" stop="2018-01-03T10:29:12.136+01:00" duration="175615">
+      <class name="org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka" runAsClient="true" duration="84181">
+         <stop>2018-01-03T10:27:40.735+01:00</stop>
+         <method name="LunchLuxmed" result="PASSED" duration="5953" operateOnDeployment="_DEFAULT_" runAsClient="false"/>
+         <method name="ChosePacjent" result="PASSED" duration="9093" operateOnDeployment="_DEFAULT_" runAsClient="false">
+            <screenshot path="C:\NewWorkspace\TestTest\target\screenshots\org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka\ChosePacjent\before.png" size="499116" type="png" phase="BEFORE" width="1894" height="918"/>
+            <screenshot path="C:\NewWorkspace\TestTest\target\screenshots\org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka\ChosePacjent\get0_onEveryAction.png" size="805535" type="png" phase="ON_EVERY_ACTION" width="1894" height="918"/>
+         </method>
+         <method name="CheckUrl" result="PASSED" duration="365" operateOnDeployment="_DEFAULT_" runAsClient="false">
+            <screenshot path="C:\NewWorkspace\TestTest\target\screenshots\org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka\CheckUrl\before.png" size="805535" type="png" phase="BEFORE" width="1894" height="918"/>
+            <screenshot path="C:\NewWorkspace\TestTest\target\screenshots\org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka\CheckUrl\getCurrentUrl0_onEveryAction.png" size="805535" type="png" phase="ON_EVERY_ACTION" width="1894" height="918"/>
+         </method>
+         <method name="ClickRezerwacja" result="PASSED" duration="3188" operateOnDeployment="_DEFAULT_" runAsClient="false">
+            <screenshot path="C:\NewWorkspace\TestTest\target\screenshots\org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka\ClickRezerwacja\before.png" size="805535" type="png" phase="BEFORE" width="1894" height="918"/>
+            <screenshot path="C:\NewWorkspace\TestTest\target\screenshots\org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka\ClickRezerwacja\get0_onEveryAction.png" size="113345" type="png" phase="ON_EVERY_ACTION" width="1894" height="918"/>
+         </method>
+         <method name="ChoseRodzajRezerwacji" result="PASSED" duration="6368" operateOnDeployment="_DEFAULT_" runAsClient="false">
+            <screenshot path="C:\NewWorkspace\TestTest\target\screenshots\org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka\ChoseRodzajRezerwacji\before.png" size="113345" type="png" phase="BEFORE" width="1894" height="918"/>
+         </method>
+         <method name="choseLocationSpecialistPerson" result="PASSED" duration="7315" operateOnDeployment="_DEFAULT_" runAsClient="false">
+            <screenshot path="C:\NewWorkspace\TestTest\target\screenshots\org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka\choseLocationSpecialistPerson\before.png" size="133026" type="png" phase="BEFORE" width="1894" height="918"/>
+         </method>
+         <method name="choseSpecialist" result="PASSED" duration="9193" operateOnDeployment="_DEFAULT_" runAsClient="false">
+            <screenshot path="C:\NewWorkspace\TestTest\target\screenshots\org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka\choseSpecialist\before.png" size="145593" type="png" phase="BEFORE" width="1894" height="918"/>
+         </method>
+         <method name="choseData" result="PASSED" duration="10265" operateOnDeployment="_DEFAULT_" runAsClient="false">
+            <screenshot path="C:\NewWorkspace\TestTest\target\screenshots\org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka\choseData\before.png" size="154218" type="png" phase="BEFORE" width="1894" height="918"/>
+            <screenshot path="C:\NewWorkspace\TestTest\target\screenshots\org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka\choseData\findElement0_onEveryAction.png" size="148610" type="png" phase="ON_EVERY_ACTION" width="1894" height="918"/>
+            <screenshot path="C:\NewWorkspace\TestTest\target\screenshots\org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka\choseData\findElement1_onEveryAction.png" size="148563" type="png" phase="ON_EVERY_ACTION" width="1894" height="918"/>
+         </method>
+         <method name="searchResults" result="PASSED" duration="13491" operateOnDeployment="_DEFAULT_" runAsClient="false">
+            <screenshot path="C:\NewWorkspace\TestTest\target\screenshots\org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka\searchResults\before.png" size="152548" type="png" phase="BEFORE" width="1894" height="918"/>
+         </method>
+         <method name="goVisitTypeAndResults" result="PASSED" duration="10275" operateOnDeployment="_DEFAULT_" runAsClient="false">
+            <screenshot path="C:\NewWorkspace\TestTest\target\screenshots\org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka\goVisitTypeAndResults\before.png" size="119165" type="png" phase="BEFORE" width="1920" height="918"/>
+         </method>
+      </class>
+      <class name="org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists" runAsClient="true" duration="91369">
+         <stop>2018-01-03T10:29:12.136+01:00</stop>
+         <method name="LunchLuxmed1" result="PASSED" duration="5822" operateOnDeployment="_DEFAULT_" runAsClient="false"/>
+         <method name="ChosePacjent1" result="PASSED" duration="9039" operateOnDeployment="_DEFAULT_" runAsClient="false">
+            <screenshot path="C:\NewWorkspace\TestTest\target\screenshots\org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists\ChosePacjent1\before.png" size="499116" type="png" phase="BEFORE" width="1894" height="918"/>
+            <screenshot path="C:\NewWorkspace\TestTest\target\screenshots\org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists\ChosePacjent1\get0_onEveryAction.png" size="805535" type="png" phase="ON_EVERY_ACTION" width="1894" height="918"/>
+         </method>
+         <method name="CheckUrl1" result="PASSED" duration="322" operateOnDeployment="_DEFAULT_" runAsClient="false">
+            <screenshot path="C:\NewWorkspace\TestTest\target\screenshots\org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists\CheckUrl1\before.png" size="805535" type="png" phase="BEFORE" width="1894" height="918"/>
+            <screenshot path="C:\NewWorkspace\TestTest\target\screenshots\org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists\CheckUrl1\getCurrentUrl0_onEveryAction.png" size="805535" type="png" phase="ON_EVERY_ACTION" width="1894" height="918"/>
+         </method>
+         <method name="ClickRezerwacja1" result="PASSED" duration="4721" operateOnDeployment="_DEFAULT_" runAsClient="false">
+            <screenshot path="C:\NewWorkspace\TestTest\target\screenshots\org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists\ClickRezerwacja1\before.png" size="805535" type="png" phase="BEFORE" width="1894" height="918"/>
+            <screenshot path="C:\NewWorkspace\TestTest\target\screenshots\org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists\ClickRezerwacja1\get0_onEveryAction.png" size="113345" type="png" phase="ON_EVERY_ACTION" width="1894" height="918"/>
+         </method>
+         <method name="ChoseRodzajRezerwacji1" result="PASSED" duration="6408" operateOnDeployment="_DEFAULT_" runAsClient="false">
+            <screenshot path="C:\NewWorkspace\TestTest\target\screenshots\org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists\ChoseRodzajRezerwacji1\before.png" size="113345" type="png" phase="BEFORE" width="1894" height="918"/>
+         </method>
+         <method name="choseLocationSpecialistPerson1" result="PASSED" duration="7294" operateOnDeployment="_DEFAULT_" runAsClient="false">
+            <screenshot path="C:\NewWorkspace\TestTest\target\screenshots\org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists\choseLocationSpecialistPerson1\before.png" size="133220" type="png" phase="BEFORE" width="1894" height="918"/>
+         </method>
+         <method name="choseSpecialist1" result="PASSED" duration="9169" operateOnDeployment="_DEFAULT_" runAsClient="false">
+            <screenshot path="C:\NewWorkspace\TestTest\target\screenshots\org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists\choseSpecialist1\before.png" size="145827" type="png" phase="BEFORE" width="1894" height="918"/>
+         </method>
+         <method name="choseData1" result="PASSED" duration="10389" operateOnDeployment="_DEFAULT_" runAsClient="false">
+            <screenshot path="C:\NewWorkspace\TestTest\target\screenshots\org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists\choseData1\before.png" size="148630" type="png" phase="BEFORE" width="1894" height="918"/>
+            <screenshot path="C:\NewWorkspace\TestTest\target\screenshots\org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists\choseData1\findElement0_onEveryAction.png" size="145471" type="png" phase="ON_EVERY_ACTION" width="1894" height="918"/>
+            <screenshot path="C:\NewWorkspace\TestTest\target\screenshots\org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists\choseData1\findElement1_onEveryAction.png" size="145426" type="png" phase="ON_EVERY_ACTION" width="1894" height="918"/>
+         </method>
+         <method name="searchResults1" result="PASSED" duration="15556" operateOnDeployment="_DEFAULT_" runAsClient="false">
+            <screenshot path="C:\NewWorkspace\TestTest\target\screenshots\org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists\searchResults1\before.png" size="149032" type="png" phase="BEFORE" width="1894" height="918"/>
+         </method>
+         <method name="printSpecWyniki1" result="PASSED" duration="15952" operateOnDeployment="_DEFAULT_" runAsClient="false">
+            <screenshot path="C:\NewWorkspace\TestTest\target\screenshots\org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists\printSpecWyniki1\before.png" size="112802" type="png" phase="BEFORE" width="1894" height="918"/>
+            <screenshot path="C:\NewWorkspace\TestTest\target\screenshots\org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists\printSpecWyniki1\findElements0_onEveryAction.png" size="112802" type="png" phase="ON_EVERY_ACTION" width="1894" height="918"/>
+         </method>
+      </class>
+   </suite>
+</report>

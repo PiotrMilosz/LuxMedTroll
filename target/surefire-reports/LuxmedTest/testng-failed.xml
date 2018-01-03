@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [LuxmedTest]">
+  <test name="MyTests(failed)">
+    <classes>
+      <class name="org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka">
+        <methods>
+          <include name="arquillianAfterSuite"/>
+          <include name="arquillianAfterClass"/>
+          <include name="arquillianBeforeClass"/>
+          <include name="arquillianAfterTest"/>
+          <include name="arquillianBeforeSuite"/>
+          <include name="arquillianBeforeTest"/>
+        </methods>
+      </class> <!-- org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka -->
+      <class name="org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists">
+        <methods>
+          <include name="arquillianAfterClass"/>
+          <include name="arquillianBeforeClass"/>
+          <include name="arquillianAfterTest"/>
+          <include name="printSpecWyniki1"/>
+          <include name="arquillianBeforeTest"/>
+        </methods>
+      </class> <!-- org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists -->
+    </classes>
+  </test> <!-- MyTests(failed) -->
+</suite> <!-- Failed suite [LuxmedTest] -->
