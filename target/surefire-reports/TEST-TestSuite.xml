@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="131.752" tests="20" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="127.751" tests="20" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Users\pmilosz\.jenkins\tools\hudson.model.JDK\JDK_8\jre\bin"/>
@@ -63,24 +63,24 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="LunchLuxmed" classname="org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka" time="6.882"/>
-  <testcase name="ChosePacjent" classname="org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka" time="9.533"/>
-  <testcase name="CheckUrl" classname="org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka" time="0.296"/>
-  <testcase name="ClickRezerwacja" classname="org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka" time="3.255"/>
-  <testcase name="ChoseRodzajRezerwacji" classname="org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka" time="1.648"/>
-  <testcase name="choseLocationSpecialistPerson" classname="org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka" time="4.488"/>
-  <testcase name="choseSpecialist" classname="org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka" time="0.176"/>
-  <testcase name="choseData" classname="org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka" time="10.42"/>
-  <testcase name="searchResults" classname="org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka" time="14.252"/>
-  <testcase name="goVisitTypeAndResults" classname="org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka" time="10.605"/>
-  <testcase name="LunchLuxmed1" classname="org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists" time="6.116"/>
-  <testcase name="ChosePacjent1" classname="org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists" time="9.203"/>
-  <testcase name="CheckUrl1" classname="org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists" time="0.264"/>
-  <testcase name="ClickRezerwacja1" classname="org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists" time="4.709"/>
-  <testcase name="ChoseRodzajRezerwacji1" classname="org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists" time="1.619"/>
-  <testcase name="choseLocationSpecialistPerson1" classname="org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists" time="4.332"/>
-  <testcase name="choseSpecialist1" classname="org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists" time="0.115"/>
-  <testcase name="choseData1" classname="org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists" time="10.436"/>
-  <testcase name="searchResults1" classname="org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists" time="15.528"/>
-  <testcase name="printSpecWyniki1" classname="org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists" time="1.001"/>
+  <testcase name="LunchLuxmed" classname="org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka" time="6.639"/>
+  <testcase name="ChosePacjent" classname="org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka" time="9.078"/>
+  <testcase name="CheckUrl" classname="org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka" time="0.353"/>
+  <testcase name="ClickRezerwacja" classname="org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka" time="3.228"/>
+  <testcase name="ChoseRodzajRezerwacji" classname="org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka" time="1.513"/>
+  <testcase name="choseLocationSpecialistPerson" classname="org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka" time="4.361"/>
+  <testcase name="choseSpecialist" classname="org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka" time="0.184"/>
+  <testcase name="choseData" classname="org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka" time="10.358"/>
+  <testcase name="searchResults" classname="org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka" time="13.743"/>
+  <testcase name="goVisitTypeAndResults" classname="org.Test.TestTest.LuxmedPacjentPediatraAgnieszkaZubrzycka" time="9.505"/>
+  <testcase name="LunchLuxmed1" classname="org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists" time="5.864"/>
+  <testcase name="ChosePacjent1" classname="org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists" time="9.584"/>
+  <testcase name="CheckUrl1" classname="org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists" time="0.293"/>
+  <testcase name="ClickRezerwacja1" classname="org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists" time="3.345"/>
+  <testcase name="ChoseRodzajRezerwacji1" classname="org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists" time="1.707"/>
+  <testcase name="choseLocationSpecialistPerson1" classname="org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists" time="4.41"/>
+  <testcase name="choseSpecialist1" classname="org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists" time="0.116"/>
+  <testcase name="choseData1" classname="org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists" time="10.377"/>
+  <testcase name="searchResults1" classname="org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists" time="15.536"/>
+  <testcase name="printSpecWyniki1" classname="org.Test.TestTest.TestLuxmedPacjentPediatriaAllSpecialists" time="1.025"/>
 </testsuite>
