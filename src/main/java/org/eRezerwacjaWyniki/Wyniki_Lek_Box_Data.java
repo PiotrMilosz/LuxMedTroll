@@ -28,7 +28,7 @@ public class Wyniki_Lek_Box_Data {
 		Graphene.waitAjax().withTimeout(20,TimeUnit.SECONDS).pollingEvery(1, TimeUnit.SECONDS).ignoring(WebDriverException.class).until().element(rezerwujButton).is().clickable();
 		List<WebElement> boxList = driver.findElements(By.className("lek_box"));
 		System.out.println("Lista dostepnych lekarzy i data pierwszego wolnego terminu");
-		driver.manage().window().maximize();
+		driver.manage().window().fullscreen();
 		screenshooter.takeScreenshot("TerminyWszyscyPediatrzy.gif",ScreenshotType.GIF);
 		
 		for(int i = 0; i<10; i++) {
