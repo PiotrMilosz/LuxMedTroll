@@ -1,14 +1,17 @@
 package org.eRezerwacjaSzukajka;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import org.jboss.arquillian.drone.api.annotation.Drone;
 import org.jboss.arquillian.graphene.Graphene;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import junit.framework.Assert;
 
@@ -31,6 +34,7 @@ public void choseSpecialist(String nazwisko) throws Exception
 	//Thread.sleep(6000);
 	String styleInfo = tick2.getAttribute("style");
 	System.out.println(styleInfo);
+	Graphene.waitAjax().withTimeout(20,TimeUnit.SECONDS).pollingEvery(1, TimeUnit.SECONDS).ignoring(WebDriverException.class).until(ExpectedConditions.attributeContains(tick2, "style", "color: rgb(153, 0, 0); font-size: 12px; margin-top: 10px; display: none;"));
 	Assert.assertEquals("color: rgb(153, 0, 0); font-size: 12px; margin-top: 10px; display: none;", styleInfo);
 	//Thread.sleep(3000);
 	

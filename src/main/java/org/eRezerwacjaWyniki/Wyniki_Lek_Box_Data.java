@@ -3,8 +3,11 @@ package org.eRezerwacjaWyniki;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import org.arquillian.extension.recorder.screenshooter.Screenshooter;
+import org.arquillian.extension.recorder.screenshooter.ScreenshotType;
 import org.jboss.arquillian.drone.api.annotation.Drone;
 import org.jboss.arquillian.graphene.Graphene;
+import org.jboss.arquillian.test.api.ArquillianResource;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
@@ -15,6 +18,7 @@ public class Wyniki_Lek_Box_Data {
 
 	@Drone
 	private WebDriver driver;
+	@ArquillianResource Screenshooter screenshooter;
 	@FindBy(className = "rezerwuj_btn" )
 	private WebElement rezerwujButton;
 	
@@ -23,6 +27,7 @@ public class Wyniki_Lek_Box_Data {
 		Graphene.waitAjax().withTimeout(20,TimeUnit.SECONDS).pollingEvery(1, TimeUnit.SECONDS).ignoring(WebDriverException.class).until().element(rezerwujButton).is().clickable();
 		List<WebElement> boxList = driver.findElements(By.className("lek_box"));
 		System.out.println("Lista dostepnych lekarzy i data pierwszego wolnego terminu");
+		screenshooter.takeScreenshot("TerminyWszyscyPediatrzy.gif",ScreenshotType.GIF);
 		
 		for(int i = 0; i<10; i++) {
 			WebElement lekarzId = boxList.get(i).findElement(By.tagName("a"));

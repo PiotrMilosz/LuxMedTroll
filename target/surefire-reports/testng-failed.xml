@@ -9,7 +9,9 @@
           <include name="arquillianAfterClass"/>
           <include name="arquillianBeforeClass"/>
           <include name="goVisitTypeAndResults"/>
+          <include name="searchResults"/>
           <include name="arquillianAfterTest"/>
+          <include name="choseSpecialist"/>
           <include name="arquillianBeforeSuite"/>
           <include name="arquillianBeforeTest"/>
         </methods>
