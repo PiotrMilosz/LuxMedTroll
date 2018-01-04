@@ -33,6 +33,7 @@ public class RodzajWizytyWyniki {
 	public void goPediatra() throws Exception {
 		pediatra.click();
 		Graphene.waitAjax().withTimeout(20,TimeUnit.SECONDS).pollingEvery(1, TimeUnit.SECONDS).ignoring(WebDriverException.class).until().element(itemCheck).is().present();
+		driver.manage().window().fullscreen();
 		screenshooter.takeScreenshot("TerminyDrZubrzycka.gif",ScreenshotType.GIF);
 		//Thread.sleep(10000);
 	}
