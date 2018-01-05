@@ -32,6 +32,8 @@ public class LuxmedE_Rezerwacja_Rodzaj {
 	private WebElement bezLogBtn;
 	@FindBy(id = "cont_container")
 	private WebElement containerCheck;
+	@FindBy(id = "lokalizacja_id")
+	private WebElement lokalizacjaCheck;
 	
 	public void goPrywatna(){
 		radialPrywatne.click();
@@ -42,6 +44,7 @@ public class LuxmedE_Rezerwacja_Rodzaj {
 		//driver.get(linkBtn);
 		Graphene.waitForHttp(linkBtn);
 		Graphene.waitAjax().withTimeout(20,TimeUnit.SECONDS).pollingEvery(1, TimeUnit.SECONDS).ignoring(WebDriverException.class).until().element(containerCheck).is().present();
+		Graphene.waitAjax().withTimeout(20,TimeUnit.SECONDS).pollingEvery(1, TimeUnit.SECONDS).ignoring(WebDriverException.class).until().element(lokalizacjaCheck).is().clickable();
 	}
 	public void goNFZ() {
 		radialNFZ.click();
